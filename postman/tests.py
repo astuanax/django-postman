@@ -55,7 +55,7 @@ from django.utils.six.moves import reload_module
 from django.utils.timezone import localtime, now
 from django.utils.translation import activate, deactivate
 
-from config import OPTION_MESSAGES
+from postman import OPTION_MESSAGES
 from .api import pm_broadcast, pm_write
 # because of reload()'s, do "from postman.fields import CommaSeparatedUserField" just before needs
 # because of reload()'s, do "from postman.forms import xxForm" just before needs
