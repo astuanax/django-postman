@@ -12,8 +12,8 @@ from django.core.urlresolvers import reverse_lazy
 from django.forms import ValidationError
 from django.views.generic.base import RedirectView
 
-from . import OPTIONS
-from .views import (InboxView, SentView, ArchivesView, TrashView,
+from postman. import OPTIONS
+from postman.views import (InboxView, SentView, ArchivesView, TrashView,
         WriteView, ReplyView, MessageView, ConversationView,
         ArchiveView, DeleteView, UndeleteView)
 

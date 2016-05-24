@@ -14,7 +14,7 @@ from django.core.validators import EMPTY_VALUES
 from django.forms.fields import CharField
 from django.utils.translation import ugettext_lazy as _
 
-from .models import get_user_name
+from postman.models import get_user_name
 
 
 class BasicCommaSeparatedUserField(CharField):

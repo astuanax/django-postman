@@ -20,9 +20,9 @@ from django.contrib.auth import get_user_model
 from django.db import transaction
 from django.utils.translation import ugettext, ugettext_lazy as _
 
-from .fields import CommaSeparatedUserField
-from .models import Message, get_user_name
-from .utils import WRAP_WIDTH
+from postman.fields import CommaSeparatedUserField
+from postman.models import Message, get_user_name
+from postman.utils import WRAP_WIDTH
 
 
 class BaseWriteForm(forms.ModelForm):

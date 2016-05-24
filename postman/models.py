@@ -16,9 +16,10 @@ from django.utils.text import Truncator
 from django.utils.timezone import now
 from django.utils.translation import ugettext, ugettext_lazy as _
 
-from config import OPTION_MESSAGES
-from .query import PostmanQuery
-from .utils import email_visitor, notify_user
+from postman import OPTION_MESSAGES
+
+from postman.query import PostmanQuery
+from postman.utils import email_visitor, notify_user
 
 # moderation constants
 STATUS_PENDING = 'p'

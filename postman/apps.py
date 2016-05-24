@@ -9,5 +9,5 @@ class PostmanConfig(AppConfig):
     name = 'postman'
 
     def ready(self):
-        from .models import setup
+        from postman.models import setup
         setup()
