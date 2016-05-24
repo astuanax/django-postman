@@ -91,7 +91,7 @@ from __future__ import unicode_literals
 from django.conf.urls import url
 from django.views.generic.base import RedirectView
 
-from postman. import OPTIONS
+ import OPTIONS
 from postman.views import (InboxView, SentView, ArchivesView, TrashView,
         WriteView, ReplyView, MessageView, ConversationView,
         ArchiveView, DeleteView, UndeleteView)
