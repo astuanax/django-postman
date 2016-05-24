@@ -24,7 +24,7 @@ from django.utils.translation import ugettext as _, ugettext_lazy
 from django.views.decorators.csrf import csrf_protect
 from django.views.generic import FormView, TemplateView, View
 
-from config import OPTION_MESSAGES
+from postman import OPTION_MESSAGES
 from .fields import autocompleter_app
 from .forms import WriteForm, AnonymousWriteForm, QuickReplyForm, FullReplyForm
 from .models import Message, get_order_by
