@@ -17,7 +17,6 @@ from django.utils.timezone import now
 from django.utils.translation import ugettext, ugettext_lazy as _
 
 from postman import OPTION_MESSAGES
-
 from postman.query import PostmanQuery
 from postman.utils import email_visitor, notify_user
 

@@ -26,6 +26,7 @@ from django.views.generic import FormView, TemplateView, View
 
 from postman import OPTION_MESSAGES
 
+
 from postman.fields import autocompleter_app
 from postman.forms import WriteForm, AnonymousWriteForm, QuickReplyForm, FullReplyForm
 from postman.models import Message, get_order_by
